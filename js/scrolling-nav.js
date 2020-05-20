@@ -27,3 +27,15 @@
   });
 
 })(jQuery); // End of use strict
+
+$('#collapseAl').on('shown.bs.collapse', function () {
+  $('html, body').animate({
+     scrollTop: $("#collapseAl").offset().top*0.8
+    }, 500);
+});
+
+$('#collapseMg').on('shown.bs.collapse', function () {
+  $('html, body').animate({
+     scrollTop: $("#collapseMg").offset().top*0.8
+    }, 500);
+});

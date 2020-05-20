@@ -3,10 +3,56 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-header {
+
+
+ header {
   padding: 156px 0 100px;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../img/factory2.jpg);
+  opacity:0.5
+}
+
+
+.header-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 section {
   padding: 150px 0;
 }
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.list-group-item.active {
+  background-color: #797979;
+  border-color: #797979;
+}
+
+#g-map {
+  opacity: 0.6;
+  border: 0;
+}
+
+#g-map:hover{
+  opacity: 1;
+}
+
+#contact {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.client-logos > img {
+  filter: grayscale(100%);
+}
+  .client-logos > img:hover {
+    filter: grayscale(0%);
+  }
