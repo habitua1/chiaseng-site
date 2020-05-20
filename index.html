@@ -23,23 +23,25 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">佳盛工業股份有限公司</br>CHIA SENG INDUSTRIAL CORP.</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="img/cs-logo.png" alt="" height="25px">
+        佳盛工業股份有限公司</br>CHIA SENG INDUSTRIAL CORP.</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#products">產品</a>
+            <a class="nav-link js-scroll-trigger" href="#products">產品介紹</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">製造服務</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">關於佳盛</a>
+            <a class="nav-link js-scroll-trigger" href="#about">公司簡介</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">聯絡我們</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">客戶服務</a>
           </li>
         </ul>
       </div>
@@ -47,31 +49,75 @@
   </nav>
 
   <header class="flex-center">
-    <div class="container text-light text-center header-bg align-middle">
+    <!-- <div class="container text-light text-center header-bg align-middle">
       <div class="col col-lg-12 my-auto">
         <h1>品質保證</h1>
-        <p class="lead">50年的壓鑄產業經驗 鋁鎂合金鑄造與精密加工</p>
+        <p class="lead">鋁鎂合金鑄造與精密加工 50年的壓鑄產業經驗</p>
       </div>
-    </div>
+    </div> -->
   </header>
 
   <section id="products">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>產品</h2>
-          <div class="card-deck">
+        <div class="col-md-10 mx-auto mt-3">
+          <h2>產品介紹</h2>
+
+          <!-- Product Deck -->
+          <div id="product-deck" class="card-deck">
+            <div id="product_card" class="card col px-0 mx-1 bg-light" style="width: 18rem;">
+              <img src="img/laptop1.jpg" alt="" class="card-img-top d-none d-lg-block">
+              <div class="card-body">
+                <h5 class="card-title">電腦</h5>
+                <p class="card-text">隨著鋁鎂合金生產技術與品質進步，在電腦相關應用商品上，
+                  佳盛有成熟經驗。以客戶需求提供電腦零組件鑄造與精密加工</p>
+                  相關應用商品為：
+                  <ul>
+                    <li>筆記型電腦零組件</li>
+                    <li>硬碟零組件</li>
+                    <li>工業電腦零組件</li>
+                    <li>電腦配件</li>
+                  </ul>
+              </div>
+            </div>
+            <div id="product_card" class="card col px-0 mx-1 bg-light" style="width: 18rem;">
+              <img src="img/seagate1.jpg" alt="" class="card-img-top d-none d-lg-block">
+              <div class="card-body">
+                <h5 class="card-title">平板通訊電子</h5>
+                <p class="card-text">隨著智慧型手機和網路的發展，通訊產品無所不在。隨身攜帶電子時代，傳統電腦逐漸被平板取代。
+                  不只消費者方面轉型，商業市場也慢慢轉變運用平板電子設備主導行銷。</p>
+                  相關應用商品為：
+                  <ul>
+                    <li>平板電腦零件</li>
+                    <li>液晶螢幕零件</li>
+                    <li>光電零件</li>
+                    <li>電子零件</li>
+                  </ul>
+              </div>
+            </div>
+            <div id="product_card" class="card col px-0 mx-1 bg-light" style="width: 18rem;">
+              <img src="img/garmin1.jpg" alt="" class="card-img-top d-none d-lg-block">
+              <div class="card-body">
+                <h5 class="card-title">其他產品</h5>
+                <p class="card-text">以客戶需求，生產產品不限於3C消費電子電腦零組件，還包括各特殊產業產品。運用現有的資源與產線，
+                  我們鋁鎂鋅合金的製造不受產品限制。只要客戶產品設計符合我們的產線，我們將盡全力完成訂單。</p>
+                相關應用商品為：
+                <ul>
+                  <li>汽車零組件</li>
+                  <li>航海航空雷達零件</li>
+                  <li>工業機械零件</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Material Deck -->
+          <!-- <div id="material-deck" class="card-deck mt-5">
             <div id="product_card" class="card col px-0 bg-light" style="width: 18rem;">
               <img src="img/aluminum1.jpg" alt="" class="card-img-top d-none d-lg-block">
               <div class="card-body">
                 <h5 class="card-title">鋁合金製品</h5>
                 <p class="card-text">楽意掲鎖然思日意聞車重個更光経山留日球子。烈供型公区目持用川流下公山。論資期崎無刊虫喜加払病提田央捕平増。</p>
-                <!-- <p class="card-text collapse" id="collapseAl">
-                  楽意掲鎖然思日意聞車重個更光経山留日球子。烈供型公区目持用川流下公山。
-                  論資期崎無刊虫喜加払病提田央捕平増。楽意掲鎖然思日意聞車重個更光経山留日球子。
-                  烈供型公区目持用川流下公山。論資期崎無刊虫喜加払病提田央捕平増。
-                  武城真罪催禁善色先圧産線和地使書質文。
-                </p> -->
               </div>
 
               <div class="card-footer">
@@ -119,7 +165,8 @@
               検評祥勢速録銀野容猫長惑手監転科女毎際。則航子防者性目工術公省年宇終邦足直際上。
               球変約人必係極日察報恋断読大。
             </div>
-          </div>
+          </div> -->
+
         </div>
       </div>
     </div>
@@ -131,26 +178,34 @@
         <div class="col-lg-8 mx-auto">
           <h2>製造服務</h2>
           <p class="lead">
-            楽意掲鎖然思日意聞車重個更光経山留日球子。烈供型公区目持用川流下公山。
-            論資期崎無刊虫喜加払病提田央捕平増。武城真罪催禁善色先圧産線和地使書質文。
-            締戦先家盟表治職注支加過落企注正作捕。直正車白本野写計能官断嫌。
+            經多年鑄造生產經驗，佳盛可以將客戶獨特的產品設計提供全方位的製造方案，滿足客戶產量供應需求。提供給客戶的材質包含鋁合金，鎂合金，鋅合金。
+            再以產品的需求提供多種成型工法與表面處理方案。
           </p>
-          <div class="row">
+          <div class="row mt-5">
             <div class="list-group col-3" id="list-tab" role="tablist">
-              <a href="#list-process" class="list-group-item list-group-item-action active" data-toggle="list" role="tab" aria-controls="" aria-selected="true">生產流程</a>
+              <a href="#list-process" class="list-group-item list-group-item-action active" data-toggle="list" role="tab" aria-controls="" aria-selected="true">生產流程:</a>
+              <!-- <a href="#list-raw" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="">原料處理</a> -->
               <a href="#list-diecast" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="">壓鑄</a>
-              <a href="#list-cnc" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="">CNC加工</a>
-              <a href="#list-paint" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="">烤漆</a>
+              <a href="#list-cnc" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="">精密加工</a>
+              <!-- <a href="#list-finish" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="">表面處理</a> -->
+              <a href="#list-paint" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="">表面處理/烤漆</a>
               <a href="#list-quality" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="">品質檢驗</a>
+              <!-- <a href="#list-assemble" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="">組裝包裝</a> -->
             </div>
             <div class="tab-content col-9" id="nav-tabContent">
               <div class="tab-pane fade active show" id="list-process" role="tabpanel" aria-labelledby="list-process">
                 <h6>生產流程</h6>
                 <p>
+                  因個產品的需求不同，所需的製造流程也會有所變化。
+                </p>
+              </div>
+              <!-- <div class="tab-pane fade" id="list-raw" role="tabpanel" aria-labelledby="list-raw">
+                <h6>原料處理</h6>
+                <p>
                   楽意掲鎖然思日意聞車重個更光経山留日球子。烈供型公区目持用川流下公山。
                   論資期崎無刊虫喜加払病提田央捕平増。武城真罪催禁善色先圧産線和地使書質文。
                 </p>
-              </div>
+              </div> -->
               <div class="tab-pane fade" id="list-diecast" role="tabpanel" aria-labelledby="list-diecast">
                 <h6>壓鑄成型</h6>
                 <p>
@@ -159,13 +214,18 @@
                 </p>
               </div>
               <div class="tab-pane fade" id="list-cnc" role="tabpanel" aria-labelledby="list-cnc">
-                <h6>CNC加工</h6>
+                <h6>精密加工</h6>
                 <p>固除声向民近指業想本発資靴。象牛故害聞枠際誕故券写能見座。
                 方勢与職自外早合検著如禁績億視後払馬経。琴地常公生関査智選向一聞額。
                 地月産歴景車必意賄記碁振日望人退社熱社正。</p>
               </div>
+              <!-- <div class="tab-pane fade" id="list-finish" role="tabpanel" aria-labelledby="list-finish">
+                <h6>表面處理</h6>
+                <p>楽意掲鎖然思日意聞車重個更光経山留日球子。烈供型公区目持用川流下公山。
+                論資期崎無刊虫喜加払病提田央捕平増。武城真罪催禁善色先圧産線和地使書質文。</p>
+              </div> -->
               <div class="tab-pane fade" id="list-paint" role="tabpanel" aria-labelledby="list-paint">
-                <h6>烤漆上色</h6>
+                <h6>表面處理 / 烤漆</h6>
                 <p>楽意掲鎖然思日意聞車重個更光経山留日球子。烈供型公区目持用川流下公山。
                 論資期崎無刊虫喜加払病提田央捕平増。武城真罪催禁善色先圧産線和地使書質文。</p>
               </div>
@@ -175,6 +235,12 @@
                 地月産歴景車必意賄記碁振日望人退社熱社正。
                 楽意掲鎖然思日意聞車重個更光経山留日球子。烈供型公区目持用川流下公山。</p>
               </div>
+              <!-- <div class="tab-pane fade" id="list-assemble" role="tabpanel" aria-labelledby="list-assemble">
+                <h6>組裝包裝</h6>
+                <p>琴地常公生関査智選向一聞額。
+                地月産歴景車必意賄記碁振日望人退社熱社正。
+                楽意掲鎖然思日意聞車重個更光経山留日球子。烈供型公区目持用川流下公山。</p>
+              </div> -->
             </div>
           </div>
 
